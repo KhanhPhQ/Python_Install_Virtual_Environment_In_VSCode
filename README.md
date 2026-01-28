@@ -47,7 +47,7 @@ _2. **KHÔNG** khởi chạy VSCode bằng quyền **Administrator**, thì khi c
 
 _Phải chạy trước lệnh bên dưới để thiết lập **Execution Policy**_
 ```bash
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force
 ```
 - Hoặc
 ```bash
