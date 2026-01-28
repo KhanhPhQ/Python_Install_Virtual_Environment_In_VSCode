@@ -49,8 +49,4 @@ _Phải chạy trước lệnh bên dưới để thiết lập **Execution Poli
 ```bash
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force
 ```
-- Hoặc
-```bash
-Set-ExecutionPolicy -Scope CurrentUser
-```
 > **=> Tiếp tục chạy lại từ mục 1.**
